@@ -127,3 +127,60 @@ elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'crowncrust') an
     harga_pizza += 120910
 elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'jumbo'):
     harga_pizza += 160000
+
+#List set harga Super Supreame Chicken Pizza
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'pan') and (size_pizza == 'personal'):
+    harga_pizza += 43637
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'pan') and (size_pizza == 'regular'):
+    harga_pizza += 100910
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'pan') and (size_pizza == 'jumbo'):
+    harga_pizza += 132728
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'personal'):
+    harga_pizza += 55455
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'regular'):
+    harga_pizza += 120910
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'jumbo'):
+    harga_pizza += 160000
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'personal'):
+    harga_pizza += 52728
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'regular'):
+    harga_pizza += 117273
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'jumbo'):
+    harga_pizza += 155455
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'personal'):
+    harga_pizza += 57273
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'regular'):
+    harga_pizza += 123637
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'jumbo'):
+    harga_pizza += 164546
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'personal'):
+    harga_pizza += 55455
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'regular'):
+    harga_pizza += 120910
+elif (menu_pizza == 'super supreame chicken pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'jumbo'):
+    harga_pizza += 160000
+else :
+    print("Mohon Maaf, Pilihan Pesanan Yang Anda Pilih Tidak Tersedia.")
+
+#Penawaran dengan Penambahan Keju atau Tidak  
+cheese = input("Apakah anda ingin tambah cheese? (ya/tidak): ")
+if cheese == 'ya':
+        harga_pizza += 13636
+elif cheese == 'tidak':
+        harga_pizza
+else:
+    print("pilihan yang anda pesan tidak tersedia.")
+print('=' * 62)
+
+#Pemastian Pesanan yang telah dipesan dan sekaligus output total tagihan
+print("Berikut adalah total pesanan Anda:")
+print("Menu yang dipilih     :", menu_pizza)
+print("Crust yang dipilih    :", crust_pizza)
+print("Ukuran yang dipilih   :", size_pizza)
+print("Penawaran tambah Keju :", cheese)
+print("Total tagihan anda adalah sebesar Rp.", harga_pizza)
+
+#Salam Penutup
+print("            Terima Kasih Sudah Membeli di PizzaHut!           ")
+print("=======================SELAMAT MENIKMATI======================")
+print("====================SILAHKAN DATANG KEMBALI===================")
