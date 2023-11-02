@@ -63,3 +63,67 @@ elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'crowncrust') a
     harga_pizza += 120910
 elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'jumbo'):
     harga_pizza += 160000
+
+#List Set Harga Meat Monsta Pizza
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'pan') and (size_pizza == 'personal'):
+    harga_pizza += 43637
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'pan') and (size_pizza == 'regular'):
+    harga_pizza += 100910
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'pan') and (size_pizza == 'jumbo'):
+    harga_pizza += 132728
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'personal'):
+    harga_pizza += 55455
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'regular'):
+    harga_pizza += 120910
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'jumbo'):
+    harga_pizza += 160000
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'personal'):
+    harga_pizza += 52728
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'regular'):
+    harga_pizza += 117273
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'jumbo'):
+    harga_pizza += 155455
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'personal'):
+    harga_pizza += 57273
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'regular'):
+    harga_pizza += 123637
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'jumbo'):
+    harga_pizza += 164546
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'personal'):
+    harga_pizza += 55455
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'regular'):
+    harga_pizza += 120910
+elif (menu_pizza == 'meat monsta pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'jumbo'):
+    harga_pizza += 160000
+
+#List Set Harga Super Supreame Pizza
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'pan') and (size_pizza == 'personal'):
+    harga_pizza += 43637
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'pan') and (size_pizza == 'regular'):
+    harga_pizza += 100910
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'pan') and (size_pizza == 'jumbo'):
+    harga_pizza += 132728
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'personal'):
+    harga_pizza += 55455
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'regular'):
+    harga_pizza += 120910
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'jumbo'):
+    harga_pizza += 160000
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'personal'):
+    harga_pizza += 52728
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'regular'):
+    harga_pizza += 117273
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'jumbo'):
+    harga_pizza += 155455
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'personal'):
+    harga_pizza += 57273
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'regular'):
+    harga_pizza += 123637
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'jumbo'):
+    harga_pizza += 164546
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'personal'):
+    harga_pizza += 55455
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'regular'):
+    harga_pizza += 120910
+elif (menu_pizza == 'super supreame pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'jumbo'):
+    harga_pizza += 160000
