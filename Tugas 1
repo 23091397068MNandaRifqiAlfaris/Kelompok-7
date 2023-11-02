@@ -1,1 +1,65 @@
+#Salam Pembuka
+print("==================SELAMAT DATANG DI PIZZAHUT!=================")
+print("=======================SELAMAT MENIKMATI======================")
 
+#Memilih Daftar Menu Pizza Yang Tersedia
+print("Silahkan memilih menu pizza yang tersedia di bawah ini:")
+print("1. frankfurter bbq pizza")
+print("2. meat monsta pizza")
+print("3. super supreame pizza")
+print("4. super supreame chicken pizza")
+menu_pizza=input("Silahkan Pilih Menu Pizza yang anda inginkan : ")
+print('=' * 62)
+
+#Memilih Daftar Crust Pizza Yang Tersedia
+print("Silahkan Memilih Crust Pizza Yang Tersedia Di Bawah Ini:")
+print('1. pan')
+print('2. stuffedcrust cheese')
+print('3. stuffedcrust sausage')
+print('4. cheesy bites')
+print('5. crown crust')
+crust_pizza=input("Silahkan Pilih Crust Pizza yang Anda inginkan :  ")
+print('=' * 62)
+
+#Memilih Ukuran Pizza yang tersedia
+print("Silahkan Memilih Ukuran Pizza Yang Tersedia Di Bawah Ini:")
+print('1. personal')
+print('2. regular')
+print('3. jumbo')
+size_pizza=input("Silahkan Pilih Ukuran Pizza yang Anda inginkan : ")
+print('=' * 62)
+
+#Inisialisasi Harga Pizza
+harga_pizza = 0
+
+#List Set Harga Pizza Frankfurter bbq
+if (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'pan') and (size_pizza == 'personal'):
+    harga_pizza += 43639
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'pan') and (size_pizza == 'regular'):
+    harga_pizza += 100910
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'pan') and (size_pizza == 'jumbo'):
+    harga_pizza += 132728
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'personal'):
+    harga_pizza += 55455
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'regular'):
+    harga_pizza += 120910
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'stuffedcrust cheese') and (size_pizza == 'jumbo'):
+    harga_pizza += 160000
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'personal'):
+    harga_pizza += 52728
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'regular'):
+    harga_pizza += 117273
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'stuffedcrust sausage') and (size_pizza == 'jumbo'):
+    harga_pizza += 155455
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'personal'):
+    harga_pizza += 57273
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'regular'):
+    harga_pizza += 123637
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'cheesy bites') and (size_pizza == 'jumbo'):
+    harga_pizza += 164546
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'personal'):
+    harga_pizza += 55455
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'regular'):
+    harga_pizza += 120910
+elif (menu_pizza == 'frankfurter bbq pizza') and (crust_pizza == 'crowncrust') and (size_pizza == 'jumbo'):
+    harga_pizza += 160000
